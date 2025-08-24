@@ -1,0 +1,86 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.profile-image {
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+#social-links-container 
+    {
+    background-color: hsl(0, 0%, 12%);
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#social-links-container {
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.bio {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+.social-link {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    margin: 10px 0;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, transform 0.1s;
+}
+
+.social-link:hover, .social-link:focus {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    transform: scale(1.03);
+}
+
+p {
+    font-size: 14px;
+}
+
